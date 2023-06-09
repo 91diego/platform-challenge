@@ -7,7 +7,7 @@ First of all you have to run `go mod tidy` command to download all the necessary
 Execute `go test -v ./pkg` commando to run tests.
 
 ## Run command
-Execute `go run main.go readFile -s **file_path** -d **file_path**` || `go run main.go readFile --shipmentFile **file_path** --driverFile **file_path**`
+Execute `go run main.go readFile -s [file_path] -d [file_path]` || `go run main.go readFile --shipmentFile [file_path] --driverFile [file_path]`
 You can download the files inside test_files/txt or test_files/csv/ folder to test CLI Command, or if you want you can create your owns.
 
 ## Run CLI command in Debbug mode
