@@ -8,6 +8,7 @@ Execute ´go test -v ./pkg´ commando to execut all the tests inside pkg folder.
 
 ## Run command
 Execute ´go run main.go readFile -s [file_path] -d [file_path]´ || ´go run main.go readFile --shipmentFile [file_path] --driverFile [file_path]´
+You can download the files inside test_files/txt or test_files/csv/ folder to test CLI Command, or if you want you can create your owns.
 
 ## Run CLI command in Debbug mode
 Create launch.json file in vscode with the next configuration
