@@ -97,10 +97,7 @@ func getBaseSSConsonants(name string) (res float32, driverName string) {
 
 // baseSSIncreased
 func baseSSIncreased(shipment, driverName int) bool {
-	if shipment == driverName {
-		return true
-	}
-	return false
+	return shipment == driverName
 }
 
 // getBaseSSVowels
